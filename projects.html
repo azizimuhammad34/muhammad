@@ -9,8 +9,11 @@
 <meta property="og:description" content="Live products I've designed, built, and shipped for real brands.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://muhammad.dev/projects.html">
-<meta property="og:image" content="https://muhammad.dev/MUHAMMAD.png">
+<meta property="og:image" content="https://muhammad.dev/MUHAMMAD.webp">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhammad — Projects">
+<meta name="twitter:description" content="Live products I've designed, built, and shipped for real brands.">
+<meta name="twitter:image" content="https://muhammad.dev/MUHAMMAD.webp">
 <link rel="canonical" href="https://muhammad.dev/projects.html">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +40,7 @@
       "@type": "CreativeWork",
       "name": "SoFyre",
       "url": "https://sofyre.com/products/mouse-repellent-pouches-3",
-      "image": "https://muhammad.dev/sofyre-banner.png",
+      "image": "https://muhammad.dev/sofyre-banner.webp",
       "description": "Live Shopify store selling plant-based pest control. Trusted by 37,000+ homes with a 4.8/5 rating.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
@@ -45,7 +48,7 @@
       "@type": "CreativeWork",
       "name": "Gilgit Adventure Treks",
       "url": "https://gilgitadventuretreks.com/",
-      "image": "https://muhammad.dev/gilgit-adventure-treks.png",
+      "image": "https://muhammad.dev/gilgit-adventure-treks.webp",
       "description": "Pakistan's #1 adventure & trekking company website with AI trip planner and online booking.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
@@ -53,7 +56,7 @@
       "@type": "CreativeWork",
       "name": "MAS Corporates",
       "url": "https://mascorporates.com/",
-      "image": "https://muhammad.dev/mas-corporates.png",
+      "image": "https://muhammad.dev/mas-corporates.webp",
       "description": "Corporate website for Maqsood Ahmed & Sons — Gilgit-Baltistan's construction & engineering firm since 1972.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
@@ -61,14 +64,14 @@
       "@type": "CreativeWork",
       "name": "Terra Pakistan",
       "url": "https://terrapakistan.com/",
-      "image": "https://muhammad.dev/terra-pakistan.png",
+      "image": "https://muhammad.dev/terra-pakistan.webp",
       "description": "Pakistan's #1 travel company website built with Next.js.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
     {
       "@type": "CreativeWork",
       "name": "Gilgit Midway Hotel Manager",
-      "image": "https://muhammad.dev/hotel management system.jpg",
+      "image": "https://muhammad.dev/hotel-management-system.webp",
       "description": "Dark-themed desktop hotel management dashboard with room booking, billing, finance, and analytics — fully offline.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
@@ -76,7 +79,7 @@
       "@type": "CreativeWork",
       "name": "Cheech and Chong",
       "url": "https://cheechandchong.com/",
-      "image": "https://muhammad.dev/cheechandchong.png",
+      "image": "https://muhammad.dev/cheechandchong.webp",
       "description": "Custom Shopify store built for Cheech and Chong — responsive e-commerce with optimized product pages and seamless checkout.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
@@ -84,7 +87,7 @@
       "@type": "CreativeWork",
       "name": "RexiPets",
       "url": "https://rexipets.com/",
-      "image": "https://muhammad.dev/rexipets.png",
+      "image": "https://muhammad.dev/rexipets.webp",
       "description": "Custom Shopify store built for RexiPets — responsive pet e-commerce with optimized product pages and seamless checkout.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     },
@@ -92,7 +95,7 @@
       "@type": "CreativeWork",
       "name": "Happy Being Shop",
       "url": "https://haby.shop/products/still-variety-pack",
-      "image": "https://muhammad.dev/happybeing.png",
+      "image": "https://muhammad.dev/happybeing.webp",
       "description": "Custom Shopify store for Happy Being — organic white tea collections and variety packs with intuitive variant selection.",
       "creator": { "@id": "https://muhammad.dev/#person" }
     }
@@ -102,6 +105,7 @@
 <script>(function(){try{var t=localStorage.getItem('bh-theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
 <div class="scroll-progress" id="scrollProgress"></div>
 
 <!-- ================= NAVBAR ================= -->
@@ -121,6 +125,8 @@
     <button class="hamburger" id="hamburger" aria-label="menu">☰</button>
   </nav>
 </div>
+
+<main id="main-content">
 
 <!-- ================= PROJECTS HERO ================= -->
 <header class="hero" id="projects" style="padding-top:150px;">
@@ -144,7 +150,10 @@
 
       <article class="card project-card reveal">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/sofyre-banner.png" alt="SoFyre — live Shopify store" width="1898" height="912">
+          <picture>
+            <source srcset="images/sofyre-banner.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/sofyre-banner.png" alt="SoFyre — live Shopify store" width="1898" height="912">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -159,7 +168,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.1s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/gilgit-adventure-treks.png" alt="Gilgit Adventure Treks — Northern Pakistan website" width="1918" height="912">
+          <picture>
+            <source srcset="images/gilgit-adventure-treks.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/gilgit-adventure-treks.png" alt="Gilgit Adventure Treks — Northern Pakistan website" width="1918" height="912">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -174,7 +186,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.2s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/mas-corporates.png" alt="MAS Corporates — Maqsood Ahmed & Sons website" width="1898" height="911">
+          <picture>
+            <source srcset="images/mas-corporates.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/mas-corporates.png" alt="MAS Corporates — Maqsood Ahmed & Sons website" width="1898" height="911">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -189,7 +204,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.2s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/terra-pakistan.png" alt="Terra Pakistan — travel company website" width="1907" height="908">
+          <picture>
+            <source srcset="images/terra-pakistan.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/terra-pakistan.png" alt="Terra Pakistan — travel company website" width="1907" height="908">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -204,7 +222,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.3s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/hotel management system.jpg" alt="Gilgit Midway Hotel Manager — desktop hotel management dashboard" width="1920" height="1080">
+          <picture>
+            <source srcset="images/hotel-management-system.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/hotel-management-system.jpg" alt="Gilgit Midway Hotel Manager — desktop hotel management dashboard" width="1920" height="1080">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -216,7 +237,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.35s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/point-of-sales.jpg" alt="Point of Sales — offline desktop POS application" width="1600" height="858">
+          <picture>
+            <source srcset="images/point-of-sales.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/point-of-sales.jpg" alt="Point of Sales — offline desktop POS application" width="1600" height="858">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -228,7 +252,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.4s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/cheechandchong.png" alt="Cheech and Chong — Shopify store" width="1920" height="1080">
+          <picture>
+            <source srcset="images/cheechandchong.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/cheechandchong.png" alt="Cheech and Chong — Shopify store" width="1920" height="1080">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -243,7 +270,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.4s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/rexipets.png" alt="RexiPets — Shopify pet store" width="1920" height="1080">
+          <picture>
+            <source srcset="images/rexipets.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/rexipets.png" alt="RexiPets — Shopify pet store" width="1920" height="1080">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -258,7 +288,10 @@
 
       <article class="card project-card reveal" style="transition-delay:.4s">
         <div class="project-shot">
-          <img class="banner lightbox-trigger" src="images/happybeing.png" alt="Happy Being — Shopify organic tea store" width="1920" height="1080">
+          <picture>
+            <source srcset="images/happybeing.webp" type="image/webp">
+            <img class="banner lightbox-trigger" src="images/happybeing.png" alt="Happy Being — Shopify organic tea store" width="1920" height="1080">
+          </picture>
           <div class="shot-grad"></div>
         </div>
         <div class="project-body">
@@ -277,6 +310,8 @@
     </div>
   </div>
 </section>
+
+</main>
 
 <!-- ================= FOOTER ================= -->
 <footer>

@@ -916,6 +916,30 @@ html[data-theme="light"] .to-top{ box-shadow:0 8px 26px rgba(30,40,80,.16); }
 }
 
 /* ============================================================
+   ACCESSIBILITY — skip link & focus styles
+   ============================================================ */
+.skip-link{
+  position:fixed;
+  top:-100px;
+  left:16px;
+  z-index:10000;
+  padding:12px 22px;
+  border-radius:10px;
+  background:linear-gradient(135deg,var(--grad-a),var(--grad-c));
+  color:#fff;
+  font-weight:600;
+  font-size:14px;
+  text-decoration:none;
+  transition:top .2s ease;
+}
+.skip-link:focus{ top:16px; }
+:focus-visible{
+  outline:2px solid var(--grad-cyan);
+  outline-offset:3px;
+  border-radius:4px;
+}
+
+/* ============================================================
    REDUCED MOTION
    ============================================================ */
 @media (prefers-reduced-motion: reduce){
