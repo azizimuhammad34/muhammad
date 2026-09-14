@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad — Blog | Notes on Software &amp; Web Development</title>
+<meta name="description" content="Practical notes from Muhammad on Shopify themes, Next.js SEO, and making websites visible to AI agents.">
+<meta property="og:title" content="Muhammad — Blog">
+<meta property="og:description" content="Practical notes on Shopify, performance, SEO, and shipping production software.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://muhammad.dev/blog/">
+<meta property="og:image" content="https://muhammad.dev/MUHAMMAD.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://muhammad.dev/blog/">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://muhammad.dev/#website",
+      "url": "https://muhammad.dev/",
+      "name": "Muhammad — Full Stack Developer",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://muhammad.dev/blog/#blog",
+      "name": "Muhammad's Blog — Notes on Software & Web Development",
+      "url": "https://muhammad.dev/blog/",
+      "description": "Practical notes from Muhammad on Shopify themes, Next.js SEO, and making websites visible to AI agents.",
+      "isPartOf": { "@id": "https://muhammad.dev/#website" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Speed Up Your Shopify Theme: Liquid Tips that Move CRO Needles",
+      "url": "https://muhammad.dev/blog/shopify-theme-speed.html",
+      "image": "https://muhammad.dev/shopify.jpg",
+      "datePublished": "2026-08-21",
+      "description": "How to profile a Shopify theme, trim Liquid weight, and get Core Web Vitals into the green without a rebuild.",
+      "author": { "@type": "Person", "name": "Muhammad", "url": "https://muhammad.dev/about.html" },
+      "isPartOf": { "@id": "https://muhammad.dev/blog/#blog" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Next.js SEO in 2026: Metadata, Core Web Vitals, and GEO",
+      "url": "https://muhammad.dev/blog/nextjs-seo.html",
+      "image": "https://muhammad.dev/nextjs.jpg",
+      "datePublished": "2026-08-09",
+      "description": "A checklist for metadata, rendering strategy, and making your site understandable to generative engines.",
+      "author": { "@type": "Person", "name": "Muhammad", "url": "https://muhammad.dev/about.html" },
+      "isPartOf": { "@id": "https://muhammad.dev/blog/#blog" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Your Website is Invisible to AI Agents. Fix That First.",
+      "url": "https://muhammad.dev/blog/agentic-web.html",
+      "image": "https://muhammad.dev/ai-seo.jpg",
+      "datePublished": "2026-07-28",
+      "description": "A growing share of product research happens inside AI agents, not search engines. What this means for content, structure, and schema.",
+      "author": { "@type": "Person", "name": "Muhammad", "url": "https://muhammad.dev/about.html" },
+      "isPartOf": { "@id": "https://muhammad.dev/blog/#blog" }
+    }
+  ]
+}
+</script>
+<script>(function(){try{var t=localStorage.getItem('bh-theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= NAVBAR ================= -->
+<div class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="../html/index.html">Home</a>
+    <a href="../html/about.html">About</a>
+    <a href="../html/projects.html">Projects</a>
+    <a href="../html/services.html">Services</a>
+    <a href="../html/skills.html">Toolbox</a>
+    <a href="../blog/index.html" class="active" aria-current="page">Blog</a>
+    <a href="../html/contact.html" class="btn-talk"><span class="dot"></span> Let's Talk</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" aria-pressed="false">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="menu">☰</button>
+  </nav>
+</div>
+
+<!-- ================= BLOG HERO ================= -->
+<header class="hero" id="top" style="padding-top:150px;">
+  <div class="container">
+    <div class="about" style="padding-bottom:20px;">
+      <span class="section-label reveal">Blog</span>
+      <h1 class="section-title reveal">Notes on shipping <span class="grad-text">software</span></h1>
+      <p class="section-sub reveal" style="max-width:700px;">Practical writeups from real client work — Shopify themes, Next.js performance, SEO, and how AI agents change the way websites get found.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ================= ARTICLES ================= -->
+<section class="section" id="articles" style="padding-top:20px;">
+  <div class="container">
+    <div class="blog-grid">
+
+      <article class="card blog-card reveal">
+        <div class="blog-thumb"><img src="../images/shopify.jpg" alt="Speed Up Your Shopify Theme — Liquid tips thumbnail" loading="lazy" width="2816" height="1536"><div class="tags"><span class="tag">Shopify</span><span class="tag">Web Performance</span></div></div>
+        <div class="blog-body">
+          
+          <h3>Speed Up Your Shopify Theme: Liquid Tips that Move CRO Needles</h3>
+          <p>Speed is a conversion lever most stores ignore. How to profile your theme, trim Liquid weight, and get Core Web Vitals into the green without a rebuild.</p>
+          <a href="shopify-theme-speed.html" class="read-link">Read article <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+      <article class="card blog-card reveal" style="transition-delay:.1s">
+        <div class="blog-thumb"><img src="../images/nextjs.jpg" alt="Next.js SEO in 2026 — metadata and GEO thumbnail" loading="lazy" width="2816" height="1536"><div class="tags"><span class="tag">Next.js</span><span class="tag">SEO</span></div></div>
+        <div class="blog-body">
+          
+          <h3>Next.js SEO in 2026: Metadata, Core Web Vitals, and GEO</h3>
+          <p>Ranking today means more than title tags. A checklist for metadata, rendering strategy, and making your site understandable to generative engines.</p>
+          <a href="nextjs-seo.html" class="read-link">Read article <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+      <article class="card blog-card reveal" style="transition-delay:.2s">
+        <div class="blog-thumb"><img src="../images/ai-seo.jpg" alt="Your Website is Invisible to AI Agents — AI visibility thumbnail" loading="lazy" width="2816" height="1536"><div class="tags"><span class="tag">Agentic AI</span><span class="tag">Business Strategy</span></div></div>
+        <div class="blog-body">
+          
+          <h3>Your Website is Invisible to AI Agents. Fix That First.</h3>
+          <p>A growing share of product research happens inside AI agents, not search engines. What this means for your content, structure, and schema.</p>
+          <a href="agentic-web.html" class="read-link">Read article <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Muhammad — <span>Full Stack Developer</span></h3>
+        <p>Full stack developer building fast, reliable web products with React, Next.js, and Node.js.</p>
+        <div class="co">Full Stack Developer</div>
+        <div class="socials">
+          <a href="https://github.com/mazizi34" target="_blank" rel="noopener" aria-label="GitHub">⌥</a>
+          <a href="https://www.instagram.com/azizimuhammad34?stkn=eTQ0cXppcDVqcnNh" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61578651300755" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.upwork.com/freelancers/~01815f10ac580b2d09" target="_blank" rel="noopener" aria-label="Upwork">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703 0 1.493-1.211 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c0 .815-.667 1.483-1.483 1.483s-1.483-.668-1.483-1.483V3.492H2v7.112c0 2.582 2.102 4.684 4.684 4.684 2.366 0 4.333-1.752 4.621-4.031.696 1.353 1.554 2.718 2.619 3.911L13.21 20.5l2.365 1.49 1.364-2.162a6.4 6.4 0 0 0 1.621.216c2.587 0 4.686-2.099 4.686-4.685 0-2.586-2.099-4.686-4.685-4.686z"/></svg>
+          </a>
+        </div>
+        <a href="../html/contact.html" class="btn btn-ghost btn-sm"><span class="dot"></span> Let's Talk</a>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="../html/index.html">Home</a></li><li><a href="../html/services.html">Services</a></li>
+          <li><a href="../html/about.html">About</a></li><li><a href="../html/projects.html">Projects</a></li>
+          <li><a href="../html/about.html">Experience</a></li><li><a href="../html/skills.html">Toolbox</a></li><li><a href="../html/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <div class="fc-box"><span class="ic">✉</span><div><small>Email</small><strong>azizimuhammad0982@gmail.com</strong></div></div>
+        <div class="fc-box"><span class="ic">📍</span><div><small>Location</small><strong>Pakistan · Remote</strong></div></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Muhammad. All rights reserved.</span>
+      <span>Built with HTML, CSS &amp; JavaScript · Available worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923555800592" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.05 3C9.36 3 4 8.36 4 15.05c0 2.13.56 4.2 1.63 6.03L4 29l8.1-1.6a12.06 12.06 0 0 0 3.95.66c6.69 0 12.05-5.36 12.05-12.05S22.74 3 16.05 3zm0 22a9.5 9.5 0 0 1-4.83-1.32l-.35-.2-4.34.86.88-4.16-.23-.37a9.51 9.51 0 0 1-1.46-5.09c0-5.27 4.29-9.56 9.56-9.56s9.56 4.29 9.56 9.56-4.29 9.28-9.79 9.28zm5.25-7.3c-.29-.15-1.71-.84-1.98-.94-.27-.1-.46-.15-.65.15-.19.29-.75.94-.92 1.13-.17.19-.34.21-.63.07-.29-.15-1.23-.45-2.34-1.44a8.77 8.77 0 0 1-1.63-2.02c-.17-.29-.02-.45.13-.59.13-.13.29-.34.44-.51.14-.17.19-.29.29-.49.1-.19.05-.36-.03-.51-.07-.15-.65-1.56-.89-2.14-.23-.56-.47-.49-.65-.5h-.55c-.19 0-.5.07-.76.36-.26.29-1 .98-1 2.39s1.02 2.77 1.17 2.96c.14.19 2.02 3.09 4.9 4.33.68.3 1.22.47 1.63.6.69.22 1.31.19 1.8.11.55-.08 1.71-.7 1.95-1.37.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.34z"/></svg>
+</a>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="../js/scripts.js"></script>
+</body>
+</html>
