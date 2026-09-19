@@ -1,0 +1,150 @@
+# Muhammad — Full Stack Developer
+
+> Muhammad is a full stack developer from Pakistan who ships reliable web products from idea to production. He builds with React, Next.js, TypeScript, Node.js, Express, PostgreSQL, Supabase, and MongoDB, and he develops high-converting custom Shopify themes with Liquid. He also builds AI-powered features and automations using LLM APIs, LangChain, and Python. His work spans SaaS products, e-commerce stores, travel and corporate websites, and offline desktop applications.
+
+## Introduction
+
+Muhammad is a full stack developer and Shopify Liquid developer with 3+ years of experience turning ideas and designs into fast, scalable digital products that perform in the real world. He designs and builds in React, Next.js, Node.js, and Django, and ships conversion-optimized Shopify themes in Liquid. He also integrates AI agents and LLM APIs for automation. He is available for freelance work worldwide and replies within 24–48 hours on business days.
+
+## Key pages
+
+- [Home](https://muhammad.dev/): Overview of Muhammad, his stack, featured projects, and latest articles. Available for work.
+- [About](https://muhammad.dev/about.html): Background of Muhammad — full stack and Shopify Liquid developer.
+- [Projects](https://muhammad.dev/projects.html): Live products built and shipped for real brands.
+- [Services](https://muhammad.dev/services.html): Full stack development, AI automation, responsive UI, database design, Shopify theme development, SEO/performance, security, API development, and WordPress.
+- [Skills](https://muhammad.dev/skills.html): The toolbox — React, Next.js, Node.js, TypeScript, SQL, Shopify Liquid, and AI automation.
+- [Blog](https://muhammad.dev/blog/): Practical notes on Shopify themes, Next.js SEO, and AI-agent visibility.
+- [Contact](https://muhammad.dev/contact.html): Get in touch — email azizimuhammad0982@gmail.com or WhatsApp +92 355 5800592.
+
+## Skills and toolbox
+
+- Frontend: React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Bootstrap
+- Backend: Node.js, Express.js, Django, Python, REST API development
+- Data: PostgreSQL, Supabase, MongoDB, database design and optimization
+- E-commerce: Shopify Liquid, Shopify theme development, e-commerce UX, CRO
+- AI: AI agents, LLM APIs, LangChain, Python automation
+- Platforms: Vercel, Docker
+- Also: WordPress development, SEO and performance, security and authentication
+
+## Services
+
+- Full stack product development
+- AI automation and integrations
+- Responsive UI development
+- Database design and optimization
+- Shopify theme development
+- SEO and performance
+- Security and authentication
+- API development
+- WordPress development
+
+Typical timelines: a landing page or portfolio ships in 1–2 weeks; a SaaS dashboard or full product takes 4–8 weeks depending on scope. Fixed timeline after scoping, upfront pricing that won't change, and weekly progress updates.
+
+## Projects
+
+### SoFyre — Live Shopify Store
+https://sofyre.com/products/mouse-repellent-pouches-3
+
+Live store selling plant-based pest control — rodent repellent pouches, spider pouches, critter control spray, and citronella mosquito patches. Trusted by 37,000+ homes with a 4.8/5 rating, a 30-day money-back guarantee, optimized upsells, and subscription refills for repeat revenue. Designed and built by Muhammad. Stack: Shopify, Liquid, UI/UX, SEO, CRO.
+
+### Gilgit Adventure Treks — Adventure & Trekking Website
+https://gilgitadventuretreks.com
+
+Pakistan's #1 adventure and trekking company website — treks, tours, and jeep safaris across Gilgit-Baltistan, from Fairy Meadows to K2 Base Camp. Features an AI-powered trip planner, step-by-step online booking, gallery, and 5,000+ happy travelers. Stack: HTML/CSS, JavaScript, booking system, AI trip planner, SEO, responsive.
+
+### MAS Corporates — Corporate Website
+https://mascorporates.com
+
+Corporate website for Maqsood Ahmed & Sons (Pvt) Ltd — Gilgit-Baltistan's premier construction and engineering firm with 50+ years of excellence since 1972. PEC registered, covering construction, engineering and supplies, solar energy, and IT solutions. Stack: HTML/CSS, JavaScript, Bootstrap, responsive, SEO.
+
+### Terra Pakistan — Travel Company Website
+https://terrapakistan.com
+
+Pakistan's #1 travel company website built with Next.js — curated tours across Northern Pakistan from autumn escapes to honeymoon trips and treks. Tourist visa support, custom trip planning, team showcase, and a destination gallery. Trusted by 150+ happy travelers. Stack: Next.js, React, Tailwind CSS, responsive, SEO.
+
+### Gilgit Midway Hotel Manager — Desktop Application
+Fully offline dark-themed hotel management dashboard with room booking, guest check-in/check-out, billing and finance tracking, housekeeping management, and real-time analytics. Features live room status, revenue charts, occupancy tracking, and recent bookings. Stack: Python, Django, desktop app, offline, Electron.
+
+### Point of Sales — Desktop Application
+Offline desktop POS application for managing sales and billing in a retail environment — product checkout, cart management, invoicing, and sales tracking. Runs fully offline without any internet connection. Stack: Python, Django, desktop app, offline.
+
+### Cheech and Chong — Shopify Store
+https://cheechandchong.com
+
+Custom Shopify store built for Cheech and Chong — fully responsive e-commerce experience with optimized product pages, seamless checkout flow, and brand-focused design. Stack: Shopify, Liquid, UI/UX, responsive.
+
+### RexiPets — Shopify Store
+https://rexipets.com
+
+Custom Shopify store built for RexiPets — responsive e-commerce experience with optimized product pages, seamless checkout flow, and pet-focused brand design. Stack: Shopify, Liquid, UI/UX, responsive.
+
+### Happy Being Shop — Shopify Store
+https://haby.shop/products/still-variety-pack
+
+Custom Shopify store for Happy Being, highlighting organic white tea collections and variety packs. Focus on visually pleasing, easy-to-navigate layout with intuitive variant selection to drive engagement and simplify purchasing. Stack: Shopify, Liquid, UI/UX, responsive.
+
+## Blog articles (full text)
+
+### Speed Up Your Shopify Theme: Liquid Tips that Move CRO Needles
+https://muhammad.dev/blog/shopify-theme-speed.html
+
+Most Shopify stores leave a 5–15% conversion lift on the table because the theme loads slower than it should. Europeans and mobile shoppers are the hardest hit, and no amount of discounting fixes a storefront that feels sluggish. Here is the playbook Muhammad uses when he optimizes a theme.
+
+**Measure before you touch Liquid.** The fastest "speed fix" is usually nothing to write code for. Open the theme editor, audit third-party apps, and check asset variants in the merchant admin. Apps injected onto every page are the single biggest hidden weight in modern themes — removing one render-blocking script often beats a week of refactoring.
+
+**Trim Liquid at the template level.** Liquid runs server-side on every request, so heavy loops and stale conditions cost real milliseconds on the first paint. The wins that matter:
+- Replace expensive `for` loops with `limit` and `offset` so you only render what the design shows.
+- Lazily load below-the-fold sections and use `loading="lazy"` on images.
+- Inline only critical CSS and move the rest into a deferred stylesheet.
+- Ship product images in `img_url: '800x'` sized to the container, with WebP generated by Shopify's image pipeline.
+
+**Core Web Vitals as a conversion lever.** Google and shoppers agree: LCP under 2.5 seconds and CLS near zero feel "fast". For product pages the highest-leverage fixes are usually the hero image, a stable layout for the add-to-cart section, and deferring the recommendation scripts that cause layout shift.
+
+**What this means for a storeowner.** You don't need a full rebuild to get fast. Profile first, cut app bloat second, then make targeted Liquid and asset changes. On a recent client store this sequence took LCP from ~4.1s to ~1.9s and lifted conversion noticeably — without changing the design at all.
+
+Bottom line: Speed is a conversion lever most stores ignore. Profile the theme, cut app and Liquid weight, then make targeted asset changes — a full rebuild is usually unnecessary.
+
+### Next.js SEO in 2026: Metadata, Core Web Vitals, and GEO
+https://muhammad.dev/blog/nextjs-seo.html
+
+SEO in 2026 isn't only about ranking in Google — it's about being understandable to both search engines and AI agents. Next.js gives the tools for both, but only if used deliberately. This is the checklist Muhammad applies to every Next.js site he ships.
+
+**Metadata is the foundation.** Use the App Router's `export const metadata` per page rather than a single global config. Every route should own its title, description, canonical, and Open Graph tags. For dynamic pages, generate metadata from the route's data — a product page whose title literally names the product outperforms a generic template title every time.
+
+**Rendering strategy matters.** Static generation where possible, server rendering where data is fresh, and dynamic only where truly needed. Most marketing and blog pages should be static or ISR so the HTML is fast and cacheable. Content that never changes should never block the first paint behind a client-side fetch.
+
+**Core Web Vitals are an SEO input.** LCP, INP, and CLS feed directly into how search engines treat pages. For Next.js that means:
+- Use the `next/image` component — it sets `loading="lazy"`, responsive sizes, and proper priority hints.
+- Ship fonts with `next/font` to avoid render-blocking font swaps.
+- Keep interactive scripts deferred with `next/script` strategy="afterInteractive".
+- Validate with Lighthouse and field data from PageSpeed Insights, not just dev tools.
+
+**GEO: visibility to generative engines.** AI assistants increasingly answer questions by citing pages they can parse reliably. Clear headings, concise summaries at the top of the page, semantic HTML, and structured data (FAQ, Product, Article schema) all make content easier for a model to quote — and easier to cite the brand when it does.
+
+Bottom line: Rankings are no longer a single dashboard. Treat speed, semantics, and structure as one system. Per-route metadata, static-first rendering, and quotable structure cover both human and AI search.
+
+### Your Website is Invisible to AI Agents. Fix That First.
+https://muhammad.dev/blog/agentic-web.html
+
+When someone asks an AI assistant "what's the best way to buy X", the assistant doesn't browse a site for joy — it reads it so it can quote and cite it. If pages are hard to parse, you win nothing, even when you'd have ranked in the old search results.
+
+**Two audiences, one page.** A website now needs to answer for two readers at once: humans who skim, and models that extract. The good news is the same fixes serve both. Clear structure, honest claims, and scannable answers satisfy a real visitor and make an agent confident enough to recommend your page.
+
+**The practical checklist:**
+- Lead each page with a one-sentence summary — the most quotable sentence is the first one.
+- Use real heading hierarchy (one H1, logical H2s) instead of styled divs.
+- Add structured data: `Product`, `FAQ`, and `Article` schema cost nothing and make facts explicit.
+- Write plain, specific numbers and claims — "trusted by 5,000+ travelers" beats vague marketing.
+- Keep key pages server-rendered and indexable; don't hide content behind client-side-only renders.
+
+**Why this is a business decision.** Research habits are shifting faster than most marketing funnels are updating for them. Treating "AI visibility" as part of your SEO budget isn't a trend-chase — it's insurance that your brand stays quotable as discovery keeps moving off the classic search result page.
+
+Bottom line: A growing share of product research happens inside AI agents, not search engines. Lead with a one-sentence summary, real heading hierarchy, structured data, and specific, quotable claims.
+
+## People
+
+- Muhammad — Full Stack Developer. Email: azizimuhammad0982@gmail.com. WhatsApp: +92 355 5800592. Based in Pakistan, remote worldwide.
+- GitHub: https://github.com/mazizi34
+- Upwork: https://www.upwork.com/freelancers/~01815f10ac580b2d09
+- Instagram: https://www.instagram.com/azizimuhammad34
+- Facebook: https://www.facebook.com/profile.php?id=61578651300755

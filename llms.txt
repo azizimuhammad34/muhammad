@@ -1,0 +1,44 @@
+# Muhammad — Full Stack Developer
+
+> Muhammad is a full stack developer from Pakistan who ships reliable web products from idea to production. He builds with React, Next.js, TypeScript, Node.js, Express, PostgreSQL, Supabase, and MongoDB, and he develops high-converting custom Shopify themes with Liquid. He also builds AI-powered features and automations using LLM APIs, LangChain, and Python. His work spans SaaS products, e-commerce stores, travel and corporate websites, and offline desktop applications.
+
+## Key pages
+
+- [Home](https://muhammad.dev/): Overview of Muhammad, his stack, featured projects, and latest articles. Available for work.
+- [About](https://muhammad.dev/about.html): Background of Muhammad — full stack and Shopify Liquid developer with 3+ years of experience.
+- [Projects](https://muhammad.dev/projects.html): Live products built and shipped for real brands, including Shopify stores, travel platforms, corporate sites, and desktop apps.
+- [Services](https://muhammad.dev/services.html): Full stack development, AI automation, responsive UI, database design, Shopify theme development, SEO/performance, security, API development, and WordPress.
+- [Skills](https://muhammad.dev/skills.html): The toolbox — React, Next.js, Node.js, TypeScript, SQL, Shopify Liquid, and AI automation with real-world use cases.
+- [Blog](https://muhammad.dev/blog/): Practical notes on Shopify themes, Next.js SEO, and making websites visible to AI agents.
+- [Contact](https://muhammad.dev/contact.html): Get in touch — Muhammad replies within 24–48 hours on business days.
+
+## Blog posts
+
+- [Speed Up Your Shopify Theme: Liquid Tips that Move CRO Needles](https://muhammad.dev/blog/shopify-theme-speed.html): Profile a Shopify theme, cut app bloat and Liquid weight, and get Core Web Vitals into the green without a rebuild. A typical pass took LCP from ~4.1s to ~1.9s on a client store.
+- [Next.js SEO in 2026: Metadata, Core Web Vitals, and GEO](https://muhammad.dev/blog/nextjs-seo.html): A practical checklist for per-page metadata, rendering strategy, and making a Next.js site understandable to both search engines and generative AI agents.
+- [Your Website is Invisible to AI Agents. Fix That First.](https://muhammad.dev/blog/agentic-web.html): A growing share of product research happens inside AI agents. Lead with a one-sentence summary, real heading hierarchy, structured data, and specific, quotable claims.
+
+## Projects
+
+- SoFyre (https://sofyre.com): Live Shopify store selling plant-based pest control. Trusted by 37,000+ homes with a 4.8/5 rating.
+- Gilgit Adventure Treks (https://gilgitadventuretreks.com): Pakistan's #1 adventure & trekking website with an AI trip planner and online booking. 5,000+ happy travelers.
+- MAS Corporates (https://mascorporates.com): Corporate site for a construction & engineering firm operating since 1972.
+- Terra Pakistan (https://terrapakistan.com): Pakistan's #1 travel company website built with Next.js.
+- Gilgit Midway Hotel Manager: Fully offline desktop hotel management dashboard (Python/Django).
+- Point of Sales: Fully offline desktop POS and billing application (Python/Django).
+- Cheech and Chong (https://cheechandchong.com): Custom responsive Shopify store.
+- RexiPets (https://rexipets.com): Custom responsive Shopify pet e-commerce store.
+- Happy Being Shop (https://haby.shop): Custom Shopify store for organic white tea and variety packs.
+
+## People
+
+- Muhammad — Full Stack Developer. Email: azizimuhammad0982@gmail.com. WhatsApp: +92 355 5800592. Based in Pakistan, remote worldwide.
+- GitHub: https://github.com/mazizi34
+- Upwork: https://www.upwork.com/freelancers/~01815f10ac580b2d09
+- Instagram: https://www.instagram.com/azizimuhammad34
+- Facebook: https://www.facebook.com/profile.php?id=61578651300755
+
+## Optional
+
+- The full text of this site, including complete articles, is available in [llms-full.txt](https://muhammad.dev/llms-full.txt).
+- Structured data: every page ships JSON-LD (Person, Organization, WebSite, ProfessionalService, FAQPage, BlogPosting, BreadcrumbList, CreativeWork) for machine-readable facts and citations.
