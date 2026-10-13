@@ -1,62 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://muhammad.dev/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/about.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/about.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/projects.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/projects.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/services.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/services.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/skills.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/experience.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/contact.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://muhammadazizi.com/toolbox.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/blog/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/insights/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/blog/shopify-theme-speed.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/faq.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/contact.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/projects/sofyre.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/projects/point-of-sales.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/blog/nextjs-seo.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/projects/cheech-and-chong.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/projects/rexipets.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/projects/terra-pakistan.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/projects/happy-being.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://muhammad.dev/blog/agentic-web.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://muhammadazizi.com/services/full-stack-development.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/services/saas-development.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/services/shopify-development.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/insights/shopify-theme-speed.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/insights/nextjs-seo.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://muhammadazizi.com/insights/agentic-web.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

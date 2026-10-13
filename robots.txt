@@ -27,4 +27,4 @@ Allow: /
 Allow: /llms.txt
 Allow: /llms-full.txt
 
-Sitemap: https://muhammad.dev/sitemap.xml
+Sitemap: https://muhammadazizi.com/sitemap.xml
